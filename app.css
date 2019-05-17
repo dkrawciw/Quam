@@ -1,0 +1,56 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: white;
+}
+.pPhoto{
+  height: 400px;
+  background-image: url(plant-sector.jpg);
+}
+h2{
+  display: inline;
+  margin: 1%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+h2:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#ttlBar{
+  text-align: center;
+  background-color: #2E933C;
+  color: white;
+  width: 50%;
+  margin-left: 49%;
+  padding: 0.5%;
+}
+#ttlImg{
+  border-radius: 100%;
+  margin: 1.5%;
+  border: 1px solid white;
+  transition: all 0.3s;
+  position: absolute;
+}
+#ttlImg:hover{
+  padding: 1%;
+  margin: 0.5%;
+  cursor: pointer;
+}
+.bodyDiv1{
+  background-color: #2E933C;
+  padding: 2%;
+  text-align: center;
+}
+.bodyDiv2{
+  background-color: #828C51;
+  padding: 2%;
+  text-align: center;
+}
+.sclMdia{
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.sclMdia:hover{
+  cursor: pointer;
+}
