@@ -1,62 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <style>
-      body{
-        text-align: center;
-        font-family: 'Nunito', sans-serif;
-      }
-      div{
-        width: 30%;
-        color: #003554;
-        margin: 5% auto;
-        font-size: 30px;
-        transition: all 0.3s;
-        border-radius: 30px;
-        border: 2px solid white;
-      }
-      div:hover{
-        cursor: pointer;
-        border: 2px solid #FFBC42;
-      }
-      h2{
-        background-color: #003554;
-        color: #FFBC42;
-        padding: 5%;
-        border-radius: 50px;
-        font-size: 25px;
-        margin: 0 auto;
-        width: 80%;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <h1>Quam</h1>
-    </div>
-      <h2 id="quotes">Important quotes...</h2>
-    <script>
-      var quotes = document.querySelector('#quotes');
-      var div = document.querySelector('div');
-      var nums = 0;
-      var axis = ['X','Y','Z'];
-      var axisR = axis[Math.floor(Math.random() * (axis.length - 1))];
-
-      var qs = ['refer to me exclusively as "Der quammissar"', 'Please use contraceptives', 'Cegielski me, me Cegielski...',"I'm not racist...", "America is one of the least racist countries in the world right now...", "I watch the Ben Shapiro show", "no u", "Nobelium Uranium", "I met a commie crazy for me"];
-
-      setInterval(function(){
-        nums++;
-        div.style.transform = "rotate" + axisR +"(" + nums + 'deg)';
-      }, 10);
-
-      div.addEventListener('click', function(){
-        axisR = axis[Math.floor(Math.random() * (axis.length - 1))];
-      });
-
-      setInterval(function(){
-        quotes.textContent = qs[Math.floor(Math.random() * (qs.length - 1))];
-      }, 4000);
-    </script>
-  </body>
-</html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+      <link rel="stylesheet"type="text/css" href="app.css">
+      <title>Konrad's Plantation</title>
+    </head>
+    <body>
+      <div class="pPhoto">
+        <img src="konradLogo.png" height="90px" id="ttlImg">
+        <div id="ttlBar">
+          <h2>About</h2><h2>FAQ</h2><h2>Sign Up</h2>
+        </div>
+      </div>
+      <div class='bodyDiv1'>
+        <h1>Upcoming Events</h1>
+        <br>
+        <br>
+        <h2>Plantation Auction</h2><h2>Book Burning</h2><h2>Jefferson Davis' Birthday</h2>
+      </div>
+      <div class="bodyDiv2">
+        <h1>Find Out More!</h1>
+        <img src="Instagram-white-icon.png" height="100px" class="sclMdia"><img src="the-gallery-for-gt-youtube-icon-png-white-135646.png" height="100px" class="sclMdia"><img src="twitter-icon-white-transparent-4.png" height="100px" class="sclMdia">
+      </div>
+    </body>
+  </html>
