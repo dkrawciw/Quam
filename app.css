@@ -37,6 +37,14 @@ h2:hover{
   margin: 0.5%;
   cursor: pointer;
 }
+.partTd{
+  width: 30%;
+  font-size: 25px;
+  text-decoration: underline;
+}
+table{
+  margin: 0 auto;
+}
 .bodyDiv1{
   background-color: #2E933C;
   padding: 2%;
